@@ -1,0 +1,109 @@
+
+
+body{
+        font-family: 'Open Sans', sans-serif;
+        background:url('../img/bank.jpg') no-repeat center;
+        background-size: cover;
+        color:#FFF;
+                               
+    }
+
+h1{    
+        font-size: 1.6rem;
+
+  }
+
+h2{
+        font-size: 1rem;
+        margin-bottom: 3rem;
+  }
+
+
+section#form{
+
+        margin-top: 80px;
+
+            }
+
+#logo_section img{
+ 
+ 
+      margin-bottom: 2rem;
+                  }
+  
+
+main{
+
+      background-color:#0abed3;
+      text-align: center;
+      padding: 1rem;
+    }
+
+
+main img{
+
+      border-radius: 100%;
+      margin-bottom: 3rem;
+
+        }    
+
+
+footer{
+  
+      margin-right: 7rem;
+
+      }
+
+footer ul{
+        
+      list-style-type: none;
+
+         }
+
+footer li{
+  
+      display: inline-block;
+      padding: 0.7rem;
+
+         }
+
+
+footer li:hover{
+      
+      -webkit-filter: drop-shadow(16px 16px 10px black);
+      filter: drop-shadow(16px 16px 10px black);
+
+              }
+
+@media only screen and (max-width:500px){
+
+footer {
+  
+  margin-right: 0;
+
+       }
+
+footer li{
+  
+  font-size: 90%;
+         }
+}
+
+
+  
+  
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
