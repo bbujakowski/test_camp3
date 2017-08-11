@@ -1,14 +1,20 @@
-
+/*
+  Niekonsekwentne formatowanie tekstu,
+  wbrew pozorą jest to istotne :) Polecam klasyczne formatowanie,
+  takie jak mniej więcej tu:
+  https://css-tricks.com/different-ways-to-format-css/#article-header-id-0
+*/
 
 body{
         font-family: 'Open Sans', sans-serif;
         background:url('../img/bank.jpg') no-repeat center;
         background-size: cover;
         color:#FFF;
-                               
+
     }
 
-h1{    
+h1{
+        /* Jeśli używasz rem'ów najlepiej jest nadac font-size base na html np: 10px */
         font-size: 1.6rem;
 
   }
@@ -26,11 +32,11 @@ section#form{
             }
 
 #logo_section img{
- 
- 
+
+
       margin-bottom: 2rem;
                   }
-  
+
 
 main{
 
@@ -45,23 +51,23 @@ main img{
       border-radius: 100%;
       margin-bottom: 3rem;
 
-        }    
+        }
 
 
 footer{
-  
+
       margin-right: 7rem;
 
       }
 
 footer ul{
-        
+
       list-style-type: none;
 
          }
 
 footer li{
-  
+
       display: inline-block;
       padding: 0.7rem;
 
@@ -69,7 +75,7 @@ footer li{
 
 
 footer li:hover{
-      
+
       -webkit-filter: drop-shadow(16px 16px 10px black);
       filter: drop-shadow(16px 16px 10px black);
 
@@ -78,26 +84,26 @@ footer li:hover{
 @media only screen and (max-width:500px){
 
 footer {
-  
+
   margin-right: 0;
 
        }
 
 footer li{
-  
+  /* unikaj używania % przy czcionkach, szybko wymyka się to spod kontroli */
   font-size: 90%;
          }
 }
-
-
-  
-  
+/* tradycyjnie zostawia się jeden enter po ostatniej linijce */
 
 
 
 
 
- 
+
+
+
+
 
 
 
